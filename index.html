@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-adsense-account" content="ca-pub-6708177318840573">
+    <meta name="description" content="Social Media 2.0 — whatever you're doing, wherever you're going, let's do it together.">
     <link rel="stylesheet" href="main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,58 +13,58 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 
-'apple-touch-icon-retina.png')}">
-    <title> SOCIAL MEDIA 2.0 </title>
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-retina.png">
+    <title>SOCIAL MEDIA 2.0</title>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6708177318840573"
      crossorigin="anonymous"></script>
-    
+
 </head>
 <body>
 
     <nav id="navbar" class="navbar">
         <ul>
-            <li><i class="fa-solid fa-bars" id="menu_icon"></i></li>
-            <li><a href="https://www.peuni.cz" class="nav-hid">Menu<span>/PEUNI</span></a></li>
-            <li><i class="fa-solid fa-magnifying-glass" id="search_icon"></i></li>
-            <li><a href="#" class="nav-hid">Search<span>/NTT</span></a></li>
+            <li><a href="https://www.peuni.cz"><i class="fa-solid fa-bars" id="menu_icon"></i></a></li>
+            <li><a href="https://www.peuni.cz" class="nav-hid">PEUNI</a></li>
+            <li><a href="https://www.peuni.cz"><i class="fa-solid fa-magnifying-glass" id="search_icon"></i></a></li>
+            <li><a href="https://www.peuni.cz" class="nav-hid"><span>NTT</span></a></li>
         </ul>
-        <a href="#" class="brand">SOCIAL MEDIA <span>2.0</span></a>
+        <a href="https://www.peuni.cz" class="brand">SOCIAL MEDIA <span>2.0</span></a>
         <ul>
-            <li><a href="#">SP</a></li>
-            <li><a href="#">PMK1</a></li>
+            <li><a href="https://www.peuni.cz">SP</a></li>
+            <li><a href="https://www.peuni.cz">350<span>PMK</span>1</a></li>
         </ul>
     </nav>
 
+    <!-- Video 1 loads immediately; 2–5 lazy-load via IntersectionObserver -->
     <section class="videobg" id="video1">
-        <video src="assets/Hero Pages/v1.mp4" type="video/mp4" autoplay loop muted plays-inline class="video" ></video>
+        <video src="assets/Hero Pages/v1.mp4" poster="assets/Hero Pages/v1-poster.jpg" autoplay loop muted playsinline class="video"></video>
         <h2>Whatever you're <span>doing</span></h2>
-        <button onclick="window.location.href='https://youtu.be/xvFZjo5PgG0?si=FR-BXu-85GUoFY10'">Let's do it together</button>
+        <button data-href="https://youtu.be/xvFZjo5PgG0?si=FR-BXu-85GUoFY10">Let's do it together</button>
     </section>
-      
+
     <section class="videobg" id="video2">
-        <video src="assets/Hero Pages/v2.mp4" type="video/mp4" autoplay loop muted plays-inline class="video" ></video>
+        <video data-src="assets/Hero Pages/v2.mp4" poster="assets/Hero Pages/v2-poster.jpg" loop muted playsinline class="video"></video>
         <h2>However you're <span>feeling</span></h2>
-        <button onclick="window.location.href='https://youtu.be/xvFZjo5PgG0?si=FR-BXu-85GUoFY10'">Let's share it together</button>
+        <button data-href="https://youtu.be/xvFZjo5PgG0?si=FR-BXu-85GUoFY10">Let's share it together</button>
     </section>
-      
+
     <section class="videobg" id="video3">
-        <video src="assets/Hero Pages/v3.mp4" type="video/mp4" autoplay loop muted plays-inline class="video" ></video>
+        <video data-src="assets/Hero Pages/v3.mp4" poster="assets/Hero Pages/v3-poster.jpg" loop muted playsinline class="video"></video>
         <h2>Whenever you're <span>lost</span></h2>
-        <button onclick="window.location.href='https://youtu.be/xvFZjo5PgG0?si=FR-BXu-85GUoFY10'">Let's rise up together</button>
+        <button data-href="https://youtu.be/xvFZjo5PgG0?si=FR-BXu-85GUoFY10">Let's rise up together</button>
     </section>
-      
+
     <section class="videobg" id="video4">
-        <video src="assets/Hero Pages/v4.mp4" type="video/mp4" autoplay loop muted plays-inline class="video" ></video>
+        <video data-src="assets/Hero Pages/v4.mp4" poster="assets/Hero Pages/v4-poster.jpg" loop muted playsinline class="video"></video>
         <h2>Wherever you're <span>going</span></h2>
-        <button onclick="window.location.href='https://youtu.be/xvFZjo5PgG0?si=FR-BXu-85GUoFY10'">Let's go together</button>
+        <button data-href="https://youtu.be/xvFZjo5PgG0?si=FR-BXu-85GUoFY10">Let's go together</button>
     </section>
 
     <section class="videobg" id="video5">
-        <video src="assets/Hero Pages/v5.mp4" type="video/mp4" autoplay loop muted plays-inline class="video" ></video>
+        <video data-src="assets/Hero Pages/v5.mp4" poster="assets/Hero Pages/v5-poster.jpg" loop muted playsinline class="video"></video>
         <h2>Whoever you really <span>are</span></h2>
-        <button onclick="window.location.href='https://youtu.be/xvFZjo5PgG0?si=FR-BXu-85GUoFY10'">Let's explore together</button>
+        <button data-href="https://youtu.be/xvFZjo5PgG0?si=FR-BXu-85GUoFY10">Let's explore together</button>
     </section>
 
     <section class="services">
@@ -71,10 +72,11 @@
         <div class="grid">
             <div class="grid-item">
                 <div class="card">
-                    <img class="card-image" src="assets/Service Pages/Service_image1.jpg" alt="service img 1">
+                    <img class="card-image" src="assets/Service Pages/Service_image1.jpg" alt="service img 1" loading="lazy">
                     <div class="card-content">
                         <h1>Free plan</h1>
-                        <p>Stop scrolling, log off and show up. Další poznámky, výhody nevýhody a tak dále, a tak dále...</p>
+                        <p>Lorem ipsum</p>
+                        <p><i>(Insert product description...)</i></p>
                         <button class="card-btn">PEUNI 2026</button>
                     </div>
                 </div>
@@ -82,10 +84,11 @@
 
             <div class="grid-item">
                 <div class="card">
-                    <img class="card-image" src="assets/Service Pages/Service_image2.jpg" alt="service img 2">
+                    <img class="card-image" src="assets/Service Pages/Service_image2.jpg" alt="service img 2" loading="lazy">
                     <div class="card-content">
                         <h1>Pro plan</h1>
-                        <p>Never gonna give you up, never gonna let you down, never gonna run around and desert you.</p>
+                        <p>Stop scrolling, log off and show up.</p>
+                        <p><i>(Insert pros/cons...)</i></p>
                         <button class="card-btn">SP 350PMK1</button>
                     </div>
                 </div>
@@ -93,23 +96,23 @@
 
             <div class="grid-item">
                 <div class="card">
-                    <img class="card-image" src="assets/Service Pages/Service_image3.jpg" alt="service img 3">
+                    <img class="card-image" src="assets/Service Pages/Service_image3.jpg" alt="service img 3" loading="lazy">
                     <div class="card-content">
                         <h1>Personalized plan</h1>
-                        <p>If you want to go fast, go alone. If you want to go far, go together. (Zajímavý citát)</p>
-                        <button class="card-btn">Nguyen Thuc</button>
+                        <p>If you want to go fast, go alone; if you want to go far, go together. <i>(Zde zajímavý citát)</i></p>
+                        <button class="card-btn">Nguyen Thuc Tuan</button>
                     </div>
                 </div>
             </div>
 
         </div>
 
-        
+
     </section>
-    
+
     <section class="links">
         <hr class="hr">
-        <div class="container" onclick="window.location.href='https://www.peuni.cz'">
+        <div class="container">
             <div class="column">
               <div class="cell cell-head">HELP</div>
               <div class="cell"><a href="#" class="links">You can <span>contact us</span> or <span>show up</span>.</a></div>
@@ -118,63 +121,58 @@
             </div>
             <div class="column">
               <div class="cell cell-head">SERVICES</div>
-              <div class="cell"><a href="#" class="links">:D</a></div>
+              <div class="cell"><a href="#" class="links">Dinosaur</a></div>
               <div class="cell"><a href="#" class="links">Personalization</a></div>
               <div class="cell"><a href="#" class="links">Download our Apps</a></div>
             </div>
             <div class="column">
               <div class="cell cell-head">ABOUT US</div>
               <div class="cell"><a href="#" class="links">Latest News</a></div>
-              <div class="cell"><a href="#" class="links">Careers</a></div>
+              <div class="cell"><a href="#" class="links">Vesmír</a></div>
               <div class="cell"><a href="#" class="links">Projects</a></div>
             </div>
             <div class="column">
               <div class="cell cell-head">CONNECT</div>
               <div class="cell"><a href="#" class="links"><span>Sign up</span> and be happy.</a></div>
               <div class="cell"><a href="#" class="links">Follow Us</a></div>
-              <div class="cell"><a href="#" class="links">:D</a></div>
+              <div class="cell"><a href="#" class="links">Batman</a></div>
             </div>
+        </div>
     </section>
 
     <hr class="hr">
 
     <footer class="footer">
-        
-        <a href="#" class='language'><i class="fa-solid fa-globe globe-icon" ></i><span>ČENGLISH (INTL)</span></a>
+        <a href="#" class='language'><i class="fa-solid fa-globe globe-icon"></i><span>ČENGLISH (INTL)</span></a>
         <ul>
             <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Legal & privacy</a></li>
+            <li><a href="#">Legal &amp; privacy</a></li>
             <li><a href="#">Cookies</a></li>
         </ul>
     </footer>
 
     <div class="last-logo">SOCIAL MEDIA 2.0</div>
 
-
-    
-
-    <div class="accordian-container" onclick="window.location.href='https://www.peuni.cz'">
+    <div class="accordian-container">
         <hr class="hr-hid">
         <button class="accordion">Help</button>
             <div class="panel">
-
                 <a href="#">You can <span>call</span>, <span>email us</span> or <span>show up</span>.</a>
                 <a href="#">FAQ's</a>
                 <a href="#">:D</a>
-
             </div>
-        
+
         <hr class="hr-hid">
 
         <button class="accordion">Services</button>
             <div class="panel">
                 <a href="#">:D</a>
                 <a href="#">Personalization</a>
-                <a href="#">Download pur Apps</a>
+                <a href="#">Download our Apps</a>
             </div>
 
         <hr class="hr-hid">
-        
+
         <button class="accordion">About Us</button>
             <div class="panel">
                 <a href="#">Latest News</a>
@@ -183,106 +181,113 @@
             </div>
 
         <hr class="hr-hid">
-        
+
         <button class="accordion">Connect</button>
             <div class="panel">
                 <a href="#"><span>Sign up</span> and be happy.</a>
-                <a href="#"><span>Follow Us</a>
-                <a href="#"><span>:D</a>
-                
+                <a href="#">Follow Us</a>
+                <a href="#">:D</a>
 
                 <div class="socialmedia">
-
                     <i class="fa-brands fa-instagram social insta"></i>
-
-                   <i class="fa-brands fa-facebook-f social"></i>
-
+                    <i class="fa-brands fa-facebook-f social"></i>
                     <i class="fa-brands fa-twitter social"></i>
-
                     <i class="fa-brands fa-youtube social"></i>
-
                     <i class="fa-brands fa-snapchat social"></i>
-
                     <i class="fa-brands fa-pinterest-p social pin"></i>
-
                     <i class="fa-brands fa-foursquare social"></i>
-
                 </div>
             </div>
             <hr class="hr-hid">
     </div>
-    
+
 
     <footer class="mobile-footer">
-
         <ul>
             <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Legal & privacy</a></li>
+            <li><a href="#">Legal &amp; privacy</a></li>
             <li><a href="#">Cookies</a></li>
         </ul>
-
-        <div class="contain"><a href="#" class='mobile-language'><i class="fa-solid fa-globe globe-icon" ></i><span>ČENGLISH (INTL)</span></a></div>
-        
+        <div class="contain"><a href="#" class='mobile-language'><i class="fa-solid fa-globe globe-icon"></i><span>ČENGLISH (INTL)</span></a></div>
     </footer>
 
-
-
-
-
     <script>
-        var lastScrollTop = 0;
-        navbar = document.getElementById("navbar");
-        window.addEventListener("scroll", function () {
-        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        // ── Navbar hide-on-scroll ──────────────────────────────────
+        const navbar = document.getElementById('navbar');
+        let lastScrollTop = 0;
 
-        if (scrollTop > lastScrollTop) {
-            navbar.style.top = "-100px";
-        } else {
-            navbar.style.top = "0";
-            if (scrollTop === 0) {
-                navbar.classList.remove("scrolled"); 
+        window.addEventListener('scroll', function () {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop) {
+                navbar.style.top = '-100px';
             } else {
-                navbar.classList.add("scrolled"); 
+                navbar.style.top = '0';
+                if (scrollTop === 0) {
+                    navbar.classList.remove('scrolled');
+                } else {
+                    navbar.classList.add('scrolled');
                 }
             }
-        lastScrollTop = scrollTop;
-        }
-        );
+            lastScrollTop = scrollTop;
+        });
 
+        // ── Hero section buttons ───────────────────────────────────
+        document.querySelectorAll('.videobg button[data-href]').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                window.location.href = this.dataset.href;
+            });
+        });
 
+        // ── Accordion ─────────────────────────────────────────────
+        document.querySelectorAll('.accordion').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                const panel = this.nextElementSibling;
+                const isActive = this.classList.contains('active');
 
-//Accordian
-
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                var panel = this.nextElementSibling;
-                var isActive = this.classList.contains("active");
-
-                // Close all accordion panels
-
-                for (var j = 0; j < acc.length; j++) {
-                    var otherPanel = acc[j].nextElementSibling;
+                document.querySelectorAll('.accordion').forEach(function (other) {
+                    const otherPanel = other.nextElementSibling;
                     if (otherPanel !== panel) {
                         otherPanel.style.maxHeight = null;
-                        acc[j].classList.remove("active");
+                        other.classList.remove('active');
                     }
-                }
+                });
 
                 if (isActive) {
-                    this.classList.remove("active");
+                    this.classList.remove('active');
                     panel.style.maxHeight = null;
                 } else {
-                    this.classList.add("active");
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                    }
+                    this.classList.add('active');
+                    panel.style.maxHeight = panel.scrollHeight + 'px';
                 }
-            );
+            });
+        });
+
+        // ── Lazy-load videos 2–5 via IntersectionObserver ─────────
+        const lazyVideos = document.querySelectorAll('video[data-src]');
+
+        if ('IntersectionObserver' in window) {
+            const videoObserver = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        const video = entry.target;
+                        video.src = video.dataset.src;
+                        video.removeAttribute('data-src');
+                        video.play();
+                        videoObserver.unobserve(video);
+                    }
+                });
+            }, { rootMargin: '200px' });
+
+            lazyVideos.forEach(function (video) {
+                videoObserver.observe(video);
+            });
+        } else {
+            lazyVideos.forEach(function (video) {
+                video.src = video.dataset.src;
+                video.play();
+            });
         }
-
-
     </script>
 </body>
 </html>
